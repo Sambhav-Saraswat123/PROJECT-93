@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+*,
+*::after,
+*::before {
+  outline: none;
+  cursor: url(./src/img/cur.png), default;
+  font-family: "Titillium Web", sans-serif;
+}
+::selection {
+  color: aquamarine;
+  background: hsl(0, 0%, 25%);
+}
+#username {
+  cursor: url(./src/img/txt-cur.png), text;
+  width: 30%;
+  height: 2em;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0.3em;
+  border: none;
+  background: whitesmoke;
+  padding: 0.4em;
+  position: absolute;
+  top: 10px;
+  left: 515px;
+}
+#login {
+  position: absolute;
+  top: 80px;
+  left: 515px;
+  background: hsl(95, 50%, 50%);
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#login:hover {
+  background: hsl(95, 50%, 40%);
+}
+body{
+  background-color: antiquewhite;
+  padding: 10px;
+}
+body{
+  margin: 0;
+  zoom: 150%;
+}
